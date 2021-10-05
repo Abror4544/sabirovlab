@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Медицинские кровати от производителя</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+
+    <header class="header" id="main">
+        <div class="topest">
+            <div class="container">
+                <a class="sale_text" data-fancybox data-src="#modal-form" href="javascript:;">Внимание, акция! Бесплатно
+                    изготовим ЛЮБОЙ заказ для новых клиентов</a>
+                <p class="close_sale">X</p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <div class="top">
+                    <a href="#/" class="logo">
+                        <p class="logo__text">SABIROV<span>LAB</span></p>
+                        <p class="logo__slogan">зуботехническая лаборатория и фрезерный центр</p>
+                    </a>
+                    <div class="connection">
+                        <div class="soc">
+                            <a target="blank" href="https://telegram.me/yadgaroart ">
+                                <img src="images/telegram.png" alt="">
+                            </a>
+                            <a target="blank" href="https://wa.me/89514472303">
+                                <img src="images/whatsapp.png" alt="">
+                            </a>
+                        </div>
+                        <a href="tel:+79264501484" class="call">
+                            <p class="tel">+7 (926) 450-14-84</p>
+                            <p class="text">работаем ежедневно, c 9 до 20 часов</p>
+                        </a>
+                        <div class="btn_block">
+                            <a class="button blue" data-fancybox data-src="#call-form" href="javascript:;">Заказать
+                                звонок</a>
+                        </div>
+                        <input type="checkbox" name="menu-active" id="menu-active">
+                        <label for="menu-active">
+                            <div class="lines">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                                <div class="line-3"></div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="menu_ul">
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#order">Заказ-наряд</a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#credit">Рассрочка</a></li>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#portfolio">Наши работы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <div class="soc">
+                            <a target="blank" href="https://telegram.me/yadgaroart ">
+                                <img src="images/telegram.png" alt="">
+                            </a>
+                            <a target="blank" href="https://wa.me/89514472303">
+                                <img src="images/whatsapp.png" alt="">
+                            </a>
+                        </div>
+                        <div class="call">
+                            <a class="tel" href="tel:+79264501484">+7 (926) 450-14-84</a>
+                            <p>работаем ежедневно, c 9 до 20 часов</p>
+                        </div>
+                        <div class="btn_block">
+                            <a class="button blue" data-fancybox data-src="#call-form" href="javascript:;">Заказать
+                                звонок</a>
+                        </div>
+                        <p class="menu__adress">
+                            Москва, Дмитровское шоссе д 51к1
+                        </p>
+                    </ul>
+                    <input type="checkbox" name="menu-bar" id="menu-bar">
+                    <label for="menu-bar">
+                        <div class="lines">
+                            <div class="line-1"></div>
+                            <div class="line-2"></div>
+                            <div class="line-3"></div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <h1>Изготовим любой заказ для
+                        новых клиентов бесплатно
+                        и доставим до клиники курьером.
+                    </h1>
+                    <div class="pluses">
+                        <p>— Гарантия качества</p>
+                        <p>— Первый заказ выполним бесплатно</p>
+                        <p>— Доставка своими курьерами </p>
+                        <p>— Одно из лучших предложений цена/качество</p>
+                    </div>
+                    <a class="button orange" data-fancybox data-src="#modal-form" href="javascript:;">ОСТАВИТЬ ЗАЯВКУ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="order" class="calculator">
+        <div class="container">
+            <div class="calculator_block">
+                <h3 class="title">Скачайте заказ-наряд</h3>
+                <div class="calculator_effect">
+                    <div class="calculator_form_item">
+                        <form id="formCalc" class="form" method="post">
+                            <div class="form__item">
+                                <select name="type">
+                                    <option rel="hide" value="Тип компании">
+                                        Тип компании
+                                    </option>
+                                    <option value="Частный доктор">Частный доктор</option>
+                                    <option value="Стоматологическая клиника">Стоматологическая клиника</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <input type="text" name="company_name" placeholder="Название" required>
+                            </div>
+                            <div class="form__item">
+                                <input type="text" name="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form__item">
+                                <input type="tel" class="phone" name="phone" placeholder="Ваш номер телефона" required>
+                            </div>
+                            <div class="pop_bottom pop_bottom-page">
+                                <input class="button blue" name="submit" type="submit" value="СКАЧАТЬ">
+                                <div class="popup-txt">После нажатия на кнопку мы отправим
+                                    <br>
+                                    вам заказ-наряд в whatsapp
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h3 class="title">Каталог</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="filter_block">
+                        <div class="filter_tabs">
+                            <div class="filter_tab vkladki active">
+                                вкладки
+                            </div>
+                            <div class="filter_tab ceramic">
+                                керамические конструкции
+                            </div>
+                            <div class="filter_tab mceramic">
+                                металлокерамические конструкции
+                            </div>
+                            <div class="filter_tab temporal">
+                                временные конструкции
+                            </div>
+                            <div class="filter_tab protez">
+                                съемное протезирование
+                            </div>
+                            <div class="filter_tab helper">
+                                вспомогательные конструкции
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 section_vkladki active">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Вкладка культевая неразборная из CoCr</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Вкладка культевая разборная из CoCr</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Вкладка культевая неразборная из ZrO2</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Вкладка культевая разборная из ZrO2</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 section_ceramic">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Вкладка, накладка, полукоронка, метод окрашивания</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Коронка, винир, метод окрашивания</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Коронка, винир, метод нанесения</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Коронка винтовой фиксации, метод окрашивания (включая
+                                        титановое основание)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Коронка цементной фиксации, метод окрашивания (не включая
+                                        стоимость абатмента)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Коронка цементной фиксации, метод нанесения (не включая
+                                        стоимость абатмента)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 section_mceramic">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Металлокерамическая коронка на культе</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Металлокерамическая коронка винтовой фиксации на
+                                        фрезерованном каркасе (включен в стоимость)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Металлокерамическая коронка цементной фиксации (включая
+                                        индивидуальный абатмент)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 section_temporal">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Временная коронка CAD/CAM</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Временная коронка винтовой фиксации (не включая титановое
+                                        основание)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 section_protez">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Полный съемный протез акриловый</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Частичный съемный протез акриловый</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Полный съемный типа Acry-Free с индивидуальной ложкой</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Частичный съемный типа Acry-Free</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Нейлоновый микропротез (до 3-х зубов)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Полный съемный протез (Quatrotti)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Микропротез “бабочка” (до 3-х зубов)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Балочная конструкция</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Бюгельный протез замковый (без стоимости замков)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Бюгельный протез кламмерный</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Восстановление съемного протеза</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Починка съемного протеза (простая)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Починка съемного протеза (сложная)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Приварка зуба, кламмера</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Удаление акриловых седел с зубами со старого протеза</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 section_helper">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Цельнолитная коронка из CoCr</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Десневая масса (1 зуб)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Плечевая масса</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Изменение цвета керамической реставрации с переоблицовкой
+                                        каркаса</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Гипсовая модель диагностическая (1 челюсть)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Гипсовка моделей в окклюдатор</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Гипсовка моделей в артикулятор по лицевой дуге</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Гипсовая разборная модель (1 фрагмент)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Диагностическая постановка зубов (1 челюсть)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Индивидуальная ложка-светоотверждаемая (1 челюсть)</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Трансфер чек</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Изготовление абатмент-чека или соединения трансферов (ед)
+                                    </div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Восковое моделирование эстетическое</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Восковое моделирование в артикуляторе</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Армирование протеза литым базисом Ti</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="catalog_item">
+                                <div class="catalog_top">
+                                    <div class="img_block">
+                                        <img src="images/catalog/1.png" alt="">
+                                    </div>
+                                    <div class="good_name">Армирование съемного протеза сеткой</div>
+                                </div>
+                                <a class="openCart" data-fancybox data-src="#price-form" href="javascript:;">
+                                    запросить прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="credit" class="credit">
+        <div class="container">
+            <div class="credit-content">
+                <div class="person_imgBlock">
+                    <img src="images/person.png" alt="">
+                    <div class="position">
+                        <p>Сабиров Мирзо</p>
+                        <p>основатель лаборатории</p>
+                    </div>
+                </div>
+                <div class="credit-text_block">
+                    <h3 class="title">Гарантируем высокое качество
+                        и выполнение заказов в срок
+                    </h3>
+                    <div class="pluses">
+                        <p>Наша большая цель - сделать счастливыми наших клиентов!<br>
+                            Мы в первую очередь за человеческие взаимоотношения,
+                            основанные на партнерстве и взаимоуважении друг у другу.<br>
+                            Мы работаем только с теми стоматологами и стоматологическими
+                            клиниками, которые дорожат своей репутацией и к каждому
+                            пациенту относятся как к своему главному пациенту в жизни!
+                        </p>
+                    </div>
+                    <a class="button orange" data-fancybox data-src="#modal-form" href="javascript:;">стать
+                        партнером</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about_content">
+                <h3 class="title">
+                    Рассрочка платежа для постоянных клиентов
+                </h3>
+                <p class="about_text bold">
+                    Выполняем заказы быстрее 98% конкурентов за счет того,
+                    что у нас в лаборатории есть все необходимые станки
+                    для изготовления качественных зуботехнических конструкций
+                </p>
+                <div class="about-pluses">
+                    <div class="about-pluses--left">
+                        <p>+ Литейная установка</p>
+                        <p>+ Фрезерный станок VHF K5</p>
+                        <p>+ Печь для прессованной керамики</p>
+                        <p>+ Programat 3010</p>
+                    </div>
+                    <div class="about-pluses--right">
+                        <p>+ 3D принтер</p>
+                        <p>+ 3D сканер MEDIT 310</p>
+                        <p>+ Работаем на немецком оборудовании</p>
+                    </div>
+                </div>
+                <div class="btn_block">
+                    <a class="button blue" data-fancybox data-src="#call-form" href="javascript:;">перезвоните
+                        мне</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="reviews">
+        <div class="container">
+            <h3 class="title">Посмотрите наши работы</h3>
+
+            <div class="swiper-container reviewSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/1.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/2.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/3.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/4.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/5.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/6.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/7.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/8.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/9.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/10.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/11.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/portfolio/12.jpeg" alt="Portfolio" class="portfolio__img">
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="control">
+                        <div class="review-button-prev"><img src="images/left.png" alt=""></div>
+                        <div class="review-button-next"><img src="images/right.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="callOrder" class="callOrder">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 un">
+
+                    <div class="catalog_top">
+                        <div class="img_block">
+                            <img src="images/phone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="right_block">
+                        <h3 class="title">Есть вопросы?
+                            Напишите нам
+                            в мессенджеры
+                            или закажите звонок</h3>
+                        <p class="text">Оставьте контактные данные,
+                            мы свяжемся с Вами в течение
+                            15 минут.</p>
+                        <div class="btn_block">
+                            <a class="button blue" data-fancybox data-src="#call-form" href="javascript:;">заказать
+                                обратный звонок</a>
+                        </div>
+                        <div class="soc">
+                            <a target="blank" href="https://wa.me/89514472303">
+                                <img src="images/whatsapp.png" alt="">
+                                <p>Написать в whatsapp</p>
+                            </a>
+                            <a target="blank" href="https://telegram.me/yadgaroart">
+                                <img src="images/telegram.png" alt="">
+                                <p>Написать в Telegram</p>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="calculator">
+        <div class="container">
+            <div class="calculator_block">
+                <h3 class="title">Скачайте заказ-наряд</h3>
+                <div class="calculator_effect">
+                    <div class="calculator_form_item">
+                        <form id="formCalc2" class="form" method="post">
+                            <div class="form__item">
+                                <select name="type">
+                                    <option rel="hide" value="Тип компании">
+                                        Тип компании
+                                    </option>
+                                    <option value="Частный доктор">Частный доктор</option>
+                                    <option value="Стоматологическая клиника">Стоматологическая клиника</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <input type="text" name="company_name" placeholder="Название" required>
+                            </div>
+                            <div class="form__item">
+                                <input type="text" name="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form__item">
+                                <input type="tel" class="phone" name="phone" placeholder="Ваш номер телефона" required>
+                            </div>
+                            <div class="pop_bottom pop_bottom-page">
+                                <input class="button blue" name="submit" type="submit" value="СКАЧАТЬ">
+                                <div class="popup-txt">После нажатия на кнопку мы отправим
+                                    <br>
+                                    вам заказ-наряд в whatsapp
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-5">
+                    <div class="contact_dsc">
+                        <h3 class="title">
+                            Контактные данные
+                        </h3>
+                        <div class="contact_dsc-adress">
+                            <p>Контакты:</p>
+                            <p>Москва, Дмитровское Шоссе д5 1к1</p>
+                            <p>Электронная почта: info@sabirovlab.ru</p>
+                            <p>Телефон: +7 (926) 450-14-84</p>
+                            <br>
+                            <p>Москва, ул Енисейская 5к2</p>
+                            <p>Электронная почта: info-e@sabirovlab.ru</p>
+                            <p>Телефон: +7 (495) 412-21-23</p>
+                            <br>
+                        </div>
+                        <div class="contact_dsc-btns">
+                            <a class="button blue" data-fancybox data-src="#call-form" href="javascript:;">заказать
+                                звонок</a>
+
+                            <ul>
+                                <li>
+                                    <a target="blank" href="https://wa.me/89514472303" class="btn-soc">
+                                        <img src="images/whatsapp.png" alt="">
+                                        Написать в Whatsapp
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="blank" href="https://telegram.me/yadgaroart" class="btn-soc">
+                                        <img src="images/telegram.png" alt="">
+                                        Написать в Telegram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="blank" href="https://www.instagram.com/medteh.pro" class="btn-soc">
+                                        <img src="images/instagram.png" alt="">
+                                        Мы в Instagram
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <div class="contact_map">
+                        <div id="map">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0bd70c5f0514e85af17f20ffb627d3545a26ebdca8cdeabbceae6f3441b2fc85&amp;width=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row justify-content-between">
+                    <div class="footer-col">
+                        <div class="footer__menu">
+                            <div class="footer__menu-title">
+                                Навигация по сайту
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#main">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#order">
+                                        Калькулятор
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#catalog">
+                                        Каталог
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#credit">
+                                        Рассрочка
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#about">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">
+                                        Отзывы
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#contacts">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer_contact">
+                            <a href="tel:+79264501484" class="footer-tel">+7 926 450 14 84</a>
+                            <div class="footer_contact-txt">
+                                Мы работаем ежедневно,<br>
+                                с 9 до 20 часов
+                                <ul>
+                                    <li>
+                                        <a class="callme" data-fancybox data-src="#call-form"
+                                            href="javascript:;">Заказать
+                                            звонок</a>
+                                    </li>
+                                    <li>
+                                        <a class="callme" data-fancybox data-src="#review-form"
+                                            href="javascript:;">Написать отзыв</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <p>SabirovLab-2021</p>                
+                <div class="footer-web">
+                    Разработка сайта <a class="author" href="https://digitalsol.pro/">DigitalSolutions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modalForm" id="modal-form" style="display: none;">
+        <div class="popup_window__content">
+
+            <div class="container">
+                <h3 class="title">
+                    Бесплатно изготовим заказ для новых клиентов
+                </h3>
+                <p>Оставьте контактные данные, мы перезвоним в течение 15 минут</p>
+                <form id="modalForm" class="form" method="post" name="formMain4">
+
+
+                    <div class="pop_input">
+                        <input autocomplete="off" class="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="pop_input">
+
+                        <input autocomplete="off" class="phone" name="phone" placeholder="Ваш номер телефона" required>
+                    </div>
+                    <div class="pop_bottom">
+                        <input class="button blue" name="submit" type="submit" value="перезвоните мне">
+
+                        <div class="popup-txt">
+                            Заполняя данную форму, вы даете согласие на <br>
+                            <a data-fancybox data-src="#pop_polytic" class="pop" href="javascript:;">обработку ваших
+                                персональных
+                                данных</a>
+                        </div>
+                    </div>
+                    <input class="post" name="formData" type="hidden" value="Форма заказа звонка">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modalForm" id="call-form" style="display: none;">
+        <div class="popup_window__content">
+
+            <div class="container">
+                <h3 class="title">
+                    Заказать обратный звонок
+                </h3>
+                <p>Оставьте контактные данные, мы перезвоним в течение 15 минут</p>
+                <form id="callForm" class="form" method="post" name="formMain4">
+
+
+                    <div class="pop_input">
+                        <input autocomplete="off" class="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="pop_input">
+
+                        <input autocomplete="off" class="phone" name="phone" placeholder="Ваш номер телефона" required>
+                    </div>
+                    <div class="pop_bottom">
+                        <input class="button blue" name="submit" type="submit" value="перезвоните мне">
+
+                        <div class="popup-txt">
+                            Заполняя данную форму, вы даете согласие на <br>
+                            <a data-fancybox data-src="#pop_polytic" class="pop" href="javascript:;">обработку ваших
+                                персональных
+                                данных</a>
+                        </div>
+                    </div>
+                    <input class="post" name="formData" type="hidden" value="Форма заказа звонка">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modalForm" id="price-form" style="display: none;">
+        <div class="popup_window__content">
+
+            <div class="container">
+                <h3 class="title">
+                    Оставьте заявку на прайс
+                </h3>
+                <p>Оставьте контактные данные, мы перезвоним в течение 15 минут</p>
+                <form id="priceForm" class="form" method="post" name="formMain4">
+
+
+                    <div class="pop_input">
+                        <input autocomplete="off" class="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="pop_input">
+
+                        <input autocomplete="off" class="phone" name="phone" placeholder="Ваш номер телефона" required>
+                    </div>
+                    <div class="pop_bottom">
+                        <input class="button blue" name="submit" type="submit" value="перезвоните мне">
+
+                        <div class="popup-txt">
+                            Заполняя данную форму, вы даете согласие на <br>
+                            <a data-fancybox data-src="#pop_polytic" class="pop" href="javascript:;">обработку ваших
+                                персональных
+                                данных</a>
+                        </div>
+                    </div>
+                    <input class="post" name="formData" type="hidden" value="Форма заказа звонка">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modalForm" id="review-form" style="display: none;">
+        <div class="popup_window__content">
+
+            <div class="container">
+                <h3 class="title">
+                    Оставьте отзыв
+                </h3>
+                <form id="reviewForm" class="form" method="post" name="formMain4">
+                    <div class="pop_input">
+                        <input autocomplete="off" class="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="pop_input">
+
+                        <input autocomplete="off" class="phone" name="phone" placeholder="Ваш номер телефона" required>
+                    </div>
+                    <div class="pop_input">
+                        <input autocomplete="off" class="phone" name="review" placeholder="Отзыв" required>
+                    </div>
+                    <div class="pop_bottom">
+                        <input class="button blue" name="submit" type="submit" value="отправить">
+
+                        <div class="popup-txt">
+                            Заполняя данную форму, вы даете согласие на <br>
+                            <a data-fancybox data-src="#pop_polytic" class="pop" href="javascript:;">обработку ваших
+                                персональных
+                                данных</a>
+                        </div>
+                    </div>
+                    <input class="post" name="formData" type="hidden" value="Форма заказа звонка">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="thanks_page" id="preorder_window_thank" style="display: none;">
+        <div class="popup_window__content">
+            <div class="popup_window_thank">
+                <h1>Благодарим за доверие!</h1>
+                <p>Мы свяжемся с Вами в ближайшее время</p>
+            </div>
+            <a href="#" class="btn-back">вернуться на сайт</a>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
