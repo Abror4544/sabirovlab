@@ -294,7 +294,7 @@
 .header .topest {
   background: #f2f7fb;
   position: relative;
-  padding: 20px 0 21px 0;
+  padding: 10px 0;
 }
 
 .header .topest .sale_text {
@@ -333,7 +333,7 @@
 }
 
 .header .nav .top {
-  padding: 52px 0 30px 0;
+  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -419,7 +419,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 25px 0 33px 0;
+  padding: 10px 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -998,7 +998,7 @@ section.catalog .catalog_item {
 section.catalog .catalog_top {
   position: relative;
   border: 1px solid #cccccc;
-  height: 385px;
+  height: 410px;
 }
 
 section.catalog .good_name {
@@ -2005,7 +2005,7 @@ footer .callme {
 @media screen and (max-width: 991px) {
   .header h1 {
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     font-size: 30px;
   }
 
@@ -2141,10 +2141,6 @@ footer .callme {
     bottom: 120px;
   }
 
-  .header .topest {
-    padding: 10px 0;
-  }
-
   .header .topest .sale_text {
     font-size: 12px;
     width: 90%;
@@ -2167,7 +2163,6 @@ footer .callme {
 
   .header .nav .top {
     border-bottom: none;
-    padding: 20px 0;
   }
 
   .header .nav .top .soc {
