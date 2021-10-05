@@ -8,6 +8,12 @@ $(function () {
     }
   });
 
+  $(window).scroll(function () {
+    let offset = $(window).scrollTop();
+    $(".menu.scroll").toggleClass("fixed", offset > 100);
+    $(".nav").toggleClass("fixed", offset > 100);
+  });
+
   $(document).mouseup(function (e) {
     var div = $(".city_list");
     if (!div.is(e.target) && div.has(e.target).length === 0) {
@@ -80,7 +86,6 @@ $(function () {
     $("html, body").animate({ scrollTop: target.offset().top - 120 }, 1000);
   });
 
-
   document.querySelector(".btn-back").addEventListener("click", function () {
     location.reload();
   });
@@ -117,7 +122,7 @@ $(function () {
     });
   }
 
-
+  toggleGoods(".sert", ".section_sert", "section.catalog .col-lg-9");
   toggleGoods(".vkladki", ".section_vkladki", "section.catalog .col-lg-9");
   toggleGoods(".ceramic", ".section_ceramic", "section.catalog .col-lg-9");
   toggleGoods(".mceramic", ".section_mceramic", "section.catalog .col-lg-9");
